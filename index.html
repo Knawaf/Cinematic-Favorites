@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinematic Favorites</title>
+    <!-- Google Fonts for a modern, clean look -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="sticky-header">
+      <nav>
+        <button data-scroll="#movies">Movies</button>
+        <button data-scroll="#tvshows">TV Shows</button>
+        <button class="btn-contact" title="Contact Me">Contact Me</button>
+      </nav>
+      <div class="progress-bar"></div>
+    </header>
+
+    <div id="popup-menu" class="popup-menu">
+      <div class="popup-content">
+        <button class="close-btn">&times;</button>
+        <h2>Contact Me</h2>
+        <a href="mailto:Knawaf78@gmail.com">
+          <p> Knawaf78@gmail.com</p>
+        </a>
+        <p>
+          <a href="https://www.linkedin.com/in/nawaf-alzubali-aab626224" target="_blank">LinkedIn</a>
+        </p>
+        <p>
+          <a href="https://github.com/Knawaf" target="_blank">GitHub</a>
+        </p>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 data-animate="slide-in">My Cinematic Favorites</h1>
+        <p>Discover movies and TV shows that inspire and entertain.</p>
+        <a href="https://boxd.it/3EnpV"><button>See More</button></a>
+      </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section class="movies-section movies" id="movies">
+      <h2 data-animate="slide-in">My 4 Favorite Movies</h2>
+      <div class="carousel">
+        <div class="carousel-track">
+          <div class="card">
+            <img src="images/amadues.jpg" alt="Amadeus" loading="lazy" />
+            <h3>Amadeus</h3>
+            <p>An unmatched depiction of genius and rivalry.</p>
+          </div>
+          <div class="card">
+            <img src="images/taxi.webp" alt="Taxi Driver" loading="lazy" />
+            <h3>Taxi Driver</h3>
+            <p>A gripping story of urban isolation.</p>
+          </div>
+          <div class="card">
+            <img src="images/paris.texsas.jpg" alt="Paris, Texas" loading="lazy" />
+            <h3>Paris, Texas</h3>
+            <p>An evocative journey of connection.</p>
+          </div>
+          <div class="card">
+            <img src="images/the sacrifice.jpg" alt="The Sacrifice" loading="lazy" />
+            <h3>The Sacrifice</h3>
+            <p>A masterpiece of existential choices.</p>
+          </div>
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- TV Shows Section -->
+    <section class="tvshows-section tvshows" id="tvshows">
+      <h2 data-animate="slide-in">My 4 Favorite TV Shows</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="images/bb.jpg" alt="Breaking Bad" loading="lazy" />
+          <h3>Breaking Bad</h3>
+          <p>A journey into the dangerous realm of crime.</p>
+        </div>
+        <div class="card">
+          <img src="images/got.jpg" alt="Game of Thrones" loading="lazy" />
+          <h3>Game of Thrones</h3>
+          <p>An epic drama of power, betrayal, and legacy.</p>
+        </div>
+        <div class="card">
+          <img src="images/mr robot.webp" alt="Mr. Robot" loading="lazy" />
+          <h3>Mr. Robot</h3>
+          <p>The world crumbled, his code rewrote it all.</p>
+        </div>
+        <div class="card">
+          <img src="images/haniba;.jpg" alt="Hannibal" loading="lazy" />
+          <h3>Hannibal</h3>
+          <p>A monster's charm masked his insidious hunger.</p>
+        </div>
+      </div>
+    </section>
+
+    <button class="btn-back-to-top" title="Back to top">&#x2191;</button>
+    <script src="script.js"></script>
+  </body>
+</html>
